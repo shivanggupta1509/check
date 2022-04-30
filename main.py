@@ -1,10 +1,9 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from time import sleep
 import sys
-from concurrent.futures import ThreadPoolExecutor
 from threading import Thread
+from time import sleep
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 if len(sys.argv) <= 1:
     print("引数を指定してください")
